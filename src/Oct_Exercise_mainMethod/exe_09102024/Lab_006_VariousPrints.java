@@ -10,7 +10,7 @@ public class Lab_006_VariousPrints {
             int table  = a * 10;
             System.out.print("\n");
             System.out.println("The value of a is " + a);
-            System.out.printf("The table is: " + "%d * %d = %d", a , 10, table); //%d for int, %b for byte, %s for short
+            System.out.printf("The table is: " + "%d * %d = %d", a , 10, table); //%d for int,byte,long,short, %b for boolean,%x - hex, %f for floating and double, %s for short
         }
     }
 }
