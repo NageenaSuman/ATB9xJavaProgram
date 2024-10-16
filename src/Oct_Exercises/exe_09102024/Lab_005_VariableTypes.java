@@ -1,4 +1,4 @@
-package Oct_Exercise_mainMethod.exe_09102024;
+package Oct_Exercises.exe_09102024;
 
 public class Lab_005_VariableTypes {
     int gg = 98;

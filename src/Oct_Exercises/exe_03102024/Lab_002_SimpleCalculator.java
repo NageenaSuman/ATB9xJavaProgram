@@ -1,4 +1,4 @@
-package Oct_Exercise_mainMethod.exe_03102024;
+package Oct_Exercises.exe_03102024;
 import java.util.Scanner;
 public class Lab_002_SimpleCalculator {
 

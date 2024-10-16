@@ -1,4 +1,4 @@
-package Oct_Exercise_mainMethod.exe_09102024;
+package Oct_Exercises.exe_09102024;
 
 public class Lab_006_VariousPrints {
     public static void main(String[] args) {

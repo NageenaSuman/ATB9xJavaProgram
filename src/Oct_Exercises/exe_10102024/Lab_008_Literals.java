@@ -1,4 +1,4 @@
-package Oct_Exercise_mainMethod.exe_101020204;
+package Oct_Exercises.exe_101020204;
 
 public class Lab_008_Literals {
     public static void main(String[] args){

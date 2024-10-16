@@ -1,4 +1,4 @@
-package Oct_Exercise_mainMethod.exe_08102024;
+package Oct_Exercises.exe_08102024;
 
 public class Lab_004_DataTypes {
     public static void main(String[] args) {

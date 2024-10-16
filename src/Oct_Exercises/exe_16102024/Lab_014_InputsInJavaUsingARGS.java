@@ -1,4 +1,4 @@
-package Oct_Exercise_mainMethod.exe_16102024;
+package Oct_Exercises.exe_16102024;
 
 public class Lab_014_InputsInJavaUsingARGS {
     public static void main(String[] args) { //basically its a string so we need to parse it

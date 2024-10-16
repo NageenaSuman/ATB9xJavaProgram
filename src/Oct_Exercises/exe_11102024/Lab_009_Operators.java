@@ -1,4 +1,4 @@
-package Oct_Exercise_mainMethod.exe_11102024;
+package Oct_Exercises.exe_11102024;
 
 public class Lab_009_Operators {
     public static void main(String[] args){

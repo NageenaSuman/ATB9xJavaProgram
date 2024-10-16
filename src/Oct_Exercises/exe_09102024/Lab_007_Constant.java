@@ -1,4 +1,4 @@
-package Oct_Exercise_mainMethod.exe_09102024;
+package Oct_Exercises.exe_09102024;
 
 public class Lab_007_Constant {
     //Declaring the constant using final keyword inside the class so that it can be accessed for all instances of class

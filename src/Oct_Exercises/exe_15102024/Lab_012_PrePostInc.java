@@ -1,4 +1,4 @@
-package Oct_Exercise_mainMethod.exe_15102024;
+package Oct_Exercises.exe_15102024;
 
 public class Lab_012_PrePostInc {
     public static void main(String[] args) {
