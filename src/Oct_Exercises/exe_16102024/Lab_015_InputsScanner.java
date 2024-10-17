@@ -12,5 +12,7 @@ public class Lab_015_InputsScanner {
         float sal = s1.nextFloat();
 
         System.out.println("The details entered are:" + '\n' + "Employee Name: " + name + '\n' + "Employee Age: " + age + '\n' + "Employee Salary: " + sal  );
-        }
+        s1.close();
+    }
+
 }
