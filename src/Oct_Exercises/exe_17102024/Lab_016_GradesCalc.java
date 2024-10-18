@@ -6,20 +6,23 @@ public class Lab_016_GradesCalc {
 
         Scanner s1 = new Scanner(System.in);
         System.out.println("Enter the Score:");
-        float score = s1.nextFloat();
+        float score = s1.nextFloat(); char grade = 'S';
         if (score >= 90 && score <= 100) {
-            System.out.println("Your grade is: A");
+            grade = 'A';
         } else if (score >= 80 && score <= 89) {
-            System.out.println("Your grade is: B");
+            grade = 'B';
         } else if (score >= 70 && score <= 79) {
-            System.out.println("Your grade is: C");
+            grade = 'C';
         } else if (score >= 60 && score <= 69) {
-            System.out.println("Your grade is: D");
+            grade = 'D';
         } else if (score >= 0 && score <= 59) {
-            System.out.println("Your grade is: F");
-        } else {
-            System.out.println("No score has been entered");
+            grade = 'F';
         }
+        else if (score <=0 || score > 100){ // Extra condition for Edge case
+            System.out.println("Invalid Score");
+            grade = 'I';
+        }
+        System.out.println("Your grade is: " + grade);
         s1.close(); // closing the scanner is best practise but still the garbage collection will do it if you dont do it
 
 
