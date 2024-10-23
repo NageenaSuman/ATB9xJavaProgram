@@ -26,7 +26,7 @@ public class Lab_018_SwitchStatement {
                 System.out.println("Division:" + (n1 / n2));
                 break;
             }
-            case "modulus", "mod": { //modulus = dividend - (quotient * divisor) // 100  | 10 // mod = 10 - (0 * 100) = 10
+            case "modulus", "mod": { //modulus = dividend(left no) - (quotient * divisor) // 100  % 10 // mod = 10 - (0 * 100) = 10
                 System.out.println("Mod:" + (n1 % n2));
                 break;
             }

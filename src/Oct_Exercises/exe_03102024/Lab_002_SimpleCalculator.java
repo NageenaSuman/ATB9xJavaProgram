@@ -8,7 +8,7 @@ public class Lab_002_SimpleCalculator {
             System.out.println("Enter the value of a and b:");
             int a = sc.nextInt();
             int b = sc.nextInt();
-            System.out.println("Enter the operation to be performed:Addition/Subtraction/Multiplication/Division");
+            System.out.println("Enter the operation to be performed:Addition/Subtraction/Multiplication/Division/Mod");
             String op = sc1.nextLine();
             if (op.equals("Addition")) {
                 int c = a + b;
@@ -20,6 +20,9 @@ public class Lab_002_SimpleCalculator {
                 int c = a * b; System.out.println("The Result is:" + c);}
             else if (op.equals("Division")) {
                 float c = a / b;
+                System.out.println("The Result is:" + c); }
+            else if (op.equals("Mod")) {
+                float c = a % b;
                 System.out.println("The Result is:" + c); }
             }
 
