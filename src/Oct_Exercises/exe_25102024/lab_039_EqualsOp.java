@@ -1,4 +1,4 @@
-package Oct_Exercises.exe_25102024_Strings;
+package Oct_Exercises.exe_25102024;
 
 public class lab_039_EqualsOp {
     public static void main(String[] args) {
