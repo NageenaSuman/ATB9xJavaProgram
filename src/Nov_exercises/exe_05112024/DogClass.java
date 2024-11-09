@@ -7,18 +7,19 @@ public class DogClass {
     int age;
 
     //Behaviour
-    void barks() {
+    public void barks() {
         System.out.println("The breedname is:" + breedname);
         System.out.println("The Dog name is:" + nameOfDog);
         System.out.println("The address is:" + home_add);
         System.out.println("The age of" + nameOfDog + " is:" + age);
     }
 
-    void eats(String food) {
+    public void eats(String food) {
+
         System.out.println("He eats biscuit bones");
     }
 
-    int walks() {
+    public int walks() {
         return 2;
     }
 

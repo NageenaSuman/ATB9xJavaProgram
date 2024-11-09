@@ -1,6 +1,6 @@
 package Nov_exercises.exe_07112024;
 
-public class Lab_056_SingleRunner_ChildAnotherEg extends Son {
+public class Lab_056_SingleRunner_ChildAnotherEg{
     public static void main(String[] args) {
 
         Son v1 = new Son();

@@ -6,6 +6,7 @@ public class BaseTest {
     int testcase_no;
     //constructor
     BaseTest () {
+        System.out.println("Executing Default constructor of parent");
         testcase_name = "Selenium";
         testcase_no = 01;
     }

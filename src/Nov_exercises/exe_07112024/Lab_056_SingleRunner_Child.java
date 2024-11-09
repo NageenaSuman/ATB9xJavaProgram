@@ -1,6 +1,6 @@
 package Nov_exercises.exe_07112024;
 
-public class Lab_056_SingleRunner_Child extends Father {
+public class Lab_056_SingleRunner_Child  {
     public static void main(String[] args) {
 
         Father v1 = new Father();
