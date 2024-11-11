@@ -1,0 +1,13 @@
+Abstraction	Encapsulation
+
+Abstraction is process of hiding the implementation details and showing only the functionality
+to the users.
+Encapsulation is a process of binding data and methods together in a single unit,
+providing controlled access to data.
+
+In abstraction, problems are solved at the design or interface level.
+While in encapsulation, problems are solved at the implementation level.
+
+We can implement abstraction using abstract class and interfaces.
+Whereas encapsulation can be implemented using by access modifier i.e. private, protected and
+public and nested classes.
