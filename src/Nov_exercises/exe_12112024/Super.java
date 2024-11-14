@@ -7,7 +7,7 @@ public class Super {
         kid.f3();
         System.out.println(kid.f2(0,1));
         System.out.println(kid.f5("Nageena"));
-        System.out.println(kid.f7(5,8));
+        System.out.println(kid.f7(34,43));
         kid.display();
 
 
@@ -47,7 +47,7 @@ class child1 extends parent {
     public int f7 (int a, int b){
         this.a = a;
         this.b = b;
-        return a%b;
+        return a*b;
     }
     public void display(){
         System.out.println(this.a);
