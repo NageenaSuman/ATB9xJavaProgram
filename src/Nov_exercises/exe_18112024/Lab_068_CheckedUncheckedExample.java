@@ -2,12 +2,15 @@ package Nov_exercises.exe_18112024;
 import java.io.*;
 public class Lab_068_CheckedUncheckedExample {
     public static void main(String[] args) {
+
         try {
             int a = 10 / 0;
+
         } catch (Exception e) {
+            System.exit(0);
             System.out.println(e.getMessage());
         } finally { // this block will always execute if you want to make it un executed
-            // then use System.exit(0); before the catch block
+            // then use System.exit(0); after the throwing exception
             System.out.println("Unchecked!");
         }
 
