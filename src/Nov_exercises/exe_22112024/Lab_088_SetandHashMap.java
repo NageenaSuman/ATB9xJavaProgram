@@ -16,7 +16,7 @@ public class Lab_088_SetandHashMap {
         s.add(3);
         System.out.println(s);
 
-        Iterator i = s.iterator();
+        Iterator i = s.iterator(); //cant be used for hashmap and hashtable...enum to be used
         while(i.hasNext()){
             System.out.println(i.next());
         }
