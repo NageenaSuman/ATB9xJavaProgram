@@ -1,0 +1,10 @@
+Iterator
+An Iterator is a versatile tool in Java that allows you to traverse through
+any type of collection, such as Set, List, Queue, Deque, and even classes implementing
+the Map interface. It provides methods to read and remove elements from a collection during iteration.
+
+
+Enumeration
+Enumeration is an older interface used for traversing legacy collections such as Vector
+and Hashtable. It allows you to read elements from these collections but does not support
+modifications.
